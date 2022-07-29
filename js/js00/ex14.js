@@ -10,7 +10,6 @@ for (i = 0; i < 4; i++) {
 	total += subject;
 }
 
-//let average = total / 5;
 console.log('Total = %d', total);
 console.log('Average = %d', total / 5);
 console.log('Percentage = %d', total * 100 / 500);

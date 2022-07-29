@@ -3,4 +3,4 @@
 let readlineSync = require('readline-sync');
 
 let Celsius = Number(readlineSync.question('Enter temperature in Celsius: '));
-console.log('Temperature in Fahrenheit = ' + ((Celsius * 9 / 5) + 32) + ' F')
+console.log('Temperature in Fahrenheit = %d F', (Celsius * 9 / 5) + 32)

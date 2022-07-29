@@ -3,7 +3,6 @@
 let readlineSync = require('readline-sync');
 
 let length = + readlineSync.question('Enter length : ');
-let width = + readlineSync.question('Enter width : ');
-
-console.log('Perimeter of rectangle = ' + (2 * (length + width)) + ' units');
+let width = + readlineSync.question('Enter width   : ');
+console.log('Perimeter of rectangle = %d units', 2 * (length + width));
 

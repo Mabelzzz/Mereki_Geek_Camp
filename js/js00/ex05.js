@@ -3,5 +3,5 @@
 let readlineSync = require('readline-sync');
 
 let length = + readlineSync.question('Enter length in centimeter: ');
-console.log('Length in meter     = ' + (length / 100) + ' m');
-console.log('Length in kilometer = ' + (length / 100000) + ' km');
+console.log('Length in meter     = %d m', length / 100);
+console.log('Length in kilometer = %d km', length / 100000);

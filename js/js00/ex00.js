@@ -3,6 +3,6 @@
 
 let readlineSync = require('readline-sync');
 
-let num1 = + readlineSync.question('Input first number : ');
-let num2 = + readlineSync.question('Input second number : ');
-console.log('sum = ' + (num1 + num2));
+let first = + readlineSync.question('Input first number   : ');
+let second = + readlineSync.question('Input second number : ');
+console.log('sum = %d', first + second);
